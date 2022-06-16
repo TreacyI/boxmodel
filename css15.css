@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.list a:link{
+  text-decoration:  none;
+  color: black;
+}
+.list a:hover{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.list a:visited{
+  color: darkblue;
+}
+.list a:active{
+  font-size: 1em;
+}
+*{
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+footer{
+  background-color: skyblue;
+  padding : 20px;
+}
+footer p{
+  color: white;
+  text-align: center;
+}
+aside{
+  text-align: center;
+}
